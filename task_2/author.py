@@ -14,6 +14,7 @@ class Contact:
 
 mike = Contact("Михаил Булгаков", "2-03-27", "15.05.1891", "Россия, Москва, Большая Пироговская, дом 35б, кв. 6")
 vlad = Contact("Владимир Маяковский", "73-88", "19.07.1893", "Россия, Москва, Лубянский проезд, д. 3, кв. 12")
+# mike = Contact('test_name', 'test_phone', 'test_birthday', 'test_address')
 
 mike.show_contact()
 vlad.show_contact()
