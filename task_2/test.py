@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-import pytest
-import os
 
 from author import Contact
 
@@ -50,22 +48,3 @@ def test_mike_vlad_exists():
     assert make_and_vlad_exist == True, (
         f'Проверьте, что вызвали метод `show_contact` для объектов mike и vlad'
     )
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
